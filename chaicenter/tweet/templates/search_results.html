@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+
+
+
+{% block content %}
+
+{% if query %}
+     <h1 class="text-ceneter mt-4">Showing results for:"{{query}}"</h1>
+{% else %}
+    <h1 class="text-ceneter mt-4">Please enter a search term.</h1>
+
+
+{% endif %}
+
+<hr>
+    
+{% endblock %} 
